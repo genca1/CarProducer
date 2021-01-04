@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "8229346b-0853-4b8a-b488-08267539881c",
+		"name": "Vitalco",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CarRequest",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"carTypeName\":\"Hatchback\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080"
+				},
+				"description": "Sample Request for Assignment"
+			},
+			"response": []
+		}
+	]
+}
